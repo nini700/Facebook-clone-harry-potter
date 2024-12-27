@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video | Facebook</title>
+    <link rel="stylesheet" href="../styles/video.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <img src="../Img/fbRound.png" alt="Logo" class="logo">
+            <div class="search-box">
+                <i class="fa-solid fa-search"></i>
+                <input type="text" placeholder="Search videos">
+            </div>
+        </div>
+        <div class="nav-middle">
+            <a href="../homepage.html"><i class="fa-solid fa-house"></i></a>
+            <a href="friends.html"><i class="fa-solid fa-user-group"></i></a>
+            <a href="video.html" class="active"><i class="fa-solid fa-video"></i></a>
+            <a href="./marketplace.html"><i class="fa-solid fa-store"></i></a>
+            <a href="./games.html"><i class="fa-solid fa-gamepad"></i></a>
+        </div>
+        <div class="nav-right">
+            <div class="profile-icon">
+                <img src="" alt="Profile">
+            </div>
+            <i class="fa-solid fa-bell"></i>
+            <i class="fa-solid fa-message"></i>
+            <i class="fa-solid fa-caret-down"></i>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Left Sidebar -->
+        <div class="left-sidebar">
+            <h2>Video</h2>
+            <div class="video-search">
+                <i class="fa-solid fa-search"></i>
+                <input type="text" placeholder="Search videos">
+            </div>
+            <div class="menu-items">
+                <a href="#" class="menu-item active">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Home</span>
+                </a>
+                <a href="#" class="menu-item">
+                    <i class="fa-solid fa-video"></i>
+                    <span>Live</span>
+                </a>
+                <a href="#" class="menu-item">
+                    <i class="fa-solid fa-clapperboard"></i>
+                    <span>Reels</span>
+                </a>
+                <a href="#" class="menu-item">
+                    <i class="fa-solid fa-tv"></i>
+                    <span>Shows</span>
+                </a>
+                <a href="#" class="menu-item">
+                    <i class="fa-solid fa-compass"></i>
+                    <span>Explore</span>
+                </a>
+                <a href="#" class="menu-item">
+                    <i class="fa-solid fa-bookmark"></i>
+                    <span>Saved Videos</span>
+                </a>
+            </div>
+            <div class="settings-icon">
+                <i class="fa-solid fa-gear"></i>
+                <span>Settings</span>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="new-videos-section">
+                <h3>New videos for you <span class="count">3</span></h3>
+                <div class="video-updates">
+                    <div class="video-update">
+                        <img src="../Img/draco.jpeg" alt="Channel" class="channel-icon">
+                        <div class="update-info">
+                            <p>New videos from Draco Malfoy and others.</p>
+                            <span class="time">2 hours ago</span>
+                        </div>
+                    </div>
+                    <div class="video-update">
+                        <img src="../Img/potter.webp" alt="Profile" class="channel-icon">
+                        <div class="update-info">
+                            <p>Harry Potter and others shared videos.</p>
+                            <span class="time">2 hours ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-post">
+                <div class="post-header">
+                    <img src="../Img/snape.jpeg" alt="More Positive">
+                    <div class="post-info">
+                        <div class="title-row">
+                            <h4>Severus snape</h4>
+                            <span class="follow-btn">Follow</span>
+                        </div>
+                        <div class="post-meta">
+                            <span>November 18, 2024</span>
+                            <i class="fa-solid fa-earth-americas"></i>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+                <p class="post-text"></p>What a beautiful castle</p>
+                <div class="video-container">
+                    <video controls>
+                        <source src="video.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+            <div class="video-post">
+                <div class="post-header">
+                    <img src="../Img/hagrid.jpeg" alt="More Positive">
+                    <div class="post-info">
+                        <div class="title-row">
+                            <h4>Rubeus Hagrid</h4>
+                            <span class="follow-btn">Follow</span>
+                        </div>
+                        <div class="post-meta">
+                            <span>December 24, 2024</span>
+                            <i class="fa-solid fa-earth-americas"></i>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-ellipsis"></i>
+                </div>
+                <p class="post-text"></p>Planting wild flowers in my garden!</p>
+                <div class="video-container">
+                    <video controls>
+                        <source src="video.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

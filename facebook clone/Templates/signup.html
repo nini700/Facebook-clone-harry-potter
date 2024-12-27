@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Create a New Account</title>
+<link rel="stylesheet" href="../styles/signup.css">
+</head>
+<body>
+<div class="container">
+    <h2>Create a new account</h2>
+    <p>It's quick and easy.</p>
+    <div class="input-group">
+        <input type="text" placeholder="First name">
+        <input type="text" placeholder="Surname">
+    </div>
+    <label for="dob" class="dob-group">Date of birth</label>
+    <div class="dob-group" id="dob">
+        <select>
+            <option>26</option>
+            <!-- other days can be added here -->
+        </select>
+        <select>
+            <option>Oct</option>
+            <!-- other months can be added here -->
+        </select>
+        <select>
+            <option>2024</option>
+            <!-- other years can be added here -->
+        </select>
+    </div>
+    <label for="gender" class="gender-group">Gender</label>
+    <div class="gender-group" id="gender">
+        <label><input type="radio" name="gender"> Female</label>
+        <label><input type="radio" name="gender"> Male</label>
+        <label><input type="radio" name="gender"> Custom</label>
+    </div>
+    <input type="text" placeholder="Mobile number or email address" class="full-width-input">
+    <input type="password" placeholder="New password" class="full-width-input">
+    <p class="info-text">People who use our service may have uploaded your contact information to Facebook. <a href="#">Learn more.</a></p>
+    <p class="terms-text">By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Privacy Policy</a> and <a href="#">Cookies Policy</a>. You may receive SMS notifications from us and can opt out at any time.</p>
+    <button>Sign Up</button>
+    <a href="./login.html" class="login-link">Already have an account?</a>
+</div>
+</body>
+</html>

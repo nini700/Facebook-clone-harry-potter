@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f0f2f5;
+    color: #1c1e21;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.search-box {
+    background: #f0f2f5;
+    border-radius: 50px;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-box input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #1c1e21;
+    width: 240px;
+}
+
+.search-box i {
+    color: #65676b;
+}
+
+.nav-middle {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-middle a {
+    color: #65676b;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 8px;
+}
+
+.nav-middle a.active {
+    color: #1b74e4;
+    border-bottom: 3px solid #1b74e4;
+}
+
+.nav-middle a:hover {
+    background: #f0f2f5;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-icon img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.nav-right i {
+    color: #65676b;
+    font-size: 20px;
+    cursor: pointer;
+    background: #f0f2f5;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.left-sidebar {
+    width: 360px;
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.left-sidebar h2 {
+    margin-bottom: 20px;
+    color: #1c1e21;
+}
+
+.friends-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    color: #1c1e21;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.menu-item:hover {
+    background: #f0f2f5;
+}
+
+.menu-item.active {
+    background: #e7f3ff;
+    color: #1b74e4;
+}
+
+.menu-item i {
+    width: 24px;
+    color: #65676b;
+}
+
+.menu-item.active i {
+    color: #1b74e4;
+}
+
+.main-content {
+    flex: 1;
+}
+
+.friends-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.friends-header h3 {
+    color: #1c1e21;
+}
+
+.see-all {
+    color: #1b74e4;
+    text-decoration: none;
+}
+
+.friend-suggestions {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.friend-card {
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.friend-photo {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.friend-info {
+    padding: 12px;
+    text-align: center;
+}
+
+.friend-info h4 {
+    margin-bottom: 5px;
+    color: #1c1e21;
+}
+
+.friend-info span {
+    color: #65676b;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.add-friend {
+    background: #1b74e4;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    width: 100%;
+    margin-bottom: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.remove {
+    background: #f0f2f5;
+    color: #1c1e21;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.add-friend:hover {
+    background: #1666d1;
+}
+
+.remove:hover {
+    background: #e4e6eb;
+}
